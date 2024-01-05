@@ -1,0 +1,8 @@
+# Project exclude paths
+/out/
+/src/web/log4jexploit/crunchytoast/Start.java
+/blacklist.txt
+/CrunchyToast.iml°
+/resources/
+/certificates/
+/.idea/
