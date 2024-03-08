@@ -6,11 +6,13 @@
 
 import web.log4jexploit.crunchytoast.http.impl.HttpServerBuilder;
 import web.log4jexploit.crunchytoast.http.inf.HttpServer;
+import web.log4jexploit.crunchytoast.logger.NotificationLevel;
 
 public class Main {
 
     public static void main(String[] args) {
-        HttpServer server = HttpServerBuilder.build(25565, HttpServerBuilder.getDefault());
+        HttpServer server = HttpServerBuilder.build(1025, HttpServerBuilder.getDefault());
+        server.getLogger().setNotificationLevel(NotificationLevel.DEBUG);
         server.start();
     }
 
