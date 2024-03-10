@@ -1,2 +1,1 @@
-CrunchyToast
-Copyright 2023 Log4JExploit
+Copyright 2023 to 2024 CrunchyToast by Log4JExploit
