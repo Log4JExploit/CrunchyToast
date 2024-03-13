@@ -1,0 +1,46 @@
+<!--
+  ~ Copyright (c) 2024 CrunchyToast by Log4JExploit
+  ~ Do you keep my non-compiled source code?
+  ~ Then keep this comment.  (View the license)
+  -->
+
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>github.log4jexploit.crunchytoast</groupId>
+    <artifactId>crunchytoast</artifactId>
+    <version>2.4</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>en.zadex.bitstream</groupId>
+            <artifactId>bitstream</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/BitStream.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>src/main/</sourceDirectory> <!-- Update this if necessary -->
+        <testSourceDirectory>src/test/java</testSourceDirectory>
+        <outputDirectory>target/classes</outputDirectory>
+        <testOutputDirectory>target/test-classes</testOutputDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>14</source>
+                    <target>14</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
