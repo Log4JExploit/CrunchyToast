@@ -47,3 +47,10 @@ If you connect to `localhost:8080`, you'll see the `Hello world!` response.
 
 > [!TIP]
 > You can visit the [CrunchyToast-Wiki](https://github.com/Log4JExploit/CrunchyToast/wiki) to find out more!
+
+# Contribution
+
+So you made it all the way down here??  
+If you have some spare time, please consider helping!  
+I would really appreciate any contribution you may  
+have to make this more solid and bug-free! ❤️
