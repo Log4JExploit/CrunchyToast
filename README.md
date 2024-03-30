@@ -43,7 +43,7 @@ public class Start {
 
 }
 ```
-If you connect to `localhost:8080`, you'll see the `Hello world!` response.
+When you connect to `localhost:8080`, you'll see the `Hello world!` response.
 
 > [!TIP]
 > You can visit the [CrunchyToast-Wiki](https://github.com/Log4JExploit/CrunchyToast/wiki) to find out more!
