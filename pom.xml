@@ -28,7 +28,7 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>src/main/</sourceDirectory> <!-- Update this if necessary -->
+        <sourceDirectory>src/main/java</sourceDirectory>
         <testSourceDirectory>src/test/java</testSourceDirectory>
         <outputDirectory>target/classes</outputDirectory>
         <testOutputDirectory>target/test-classes</testOutputDirectory>
