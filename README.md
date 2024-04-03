@@ -8,6 +8,7 @@ add CrunchyToast as a Library and get started.
 # Features
 
 Version 2.4 includes the following features:
+- Works with TLS 1.3 and LetsEncrypt
 - Launching multiple independent Server instances
 - Declaring Endpoints using Annotations
 - Automatic handling of returned values by such endpoints
