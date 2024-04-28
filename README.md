@@ -27,7 +27,7 @@ with only a few lines of code:
 ```
 import github.log4jexploit.crunchytoast.http.endpoint.HttpEndpoint;
 import github.log4jexploit.crunchytoast.http.inbound.impl.HttpServerBuilder;
-import github.log4jexploit.crunchytoast.http.inbound.inf.HttpServer;
+import github.log4jexploit.crunchytoast.http.inbound.impl.HttpServer;
 
 public class Start {
 
