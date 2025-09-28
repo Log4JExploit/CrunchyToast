@@ -29,11 +29,11 @@ import github.log4jexploit.crunchytoast.http.endpoint.HttpEndpoint;
 import github.log4jexploit.crunchytoast.http.inbound.impl.HttpServerBuilder;
 import github.log4jexploit.crunchytoast.http.inbound.impl.HttpServer;
 
-public class Start {
+public class github.log4jexploit.crunchytoast.Start {
 
     public static void main(String[] args) {
         HttpServer server = HttpServerBuilder.build(8080, "HTTP");
-        server.getEndpointManager().registerHandler(new Start());
+        server.getEndpointManager().registerHandler(new github.log4jexploit.crunchytoast.Start());
         server.start();
     }
 

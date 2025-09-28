@@ -1,6 +1,6 @@
 # Project exclude paths
 /out/
-/src/main/java/github/log4jexploit/crunchytoast/Start.java
+/src/main/java/github/log4jexploit/crunchytoast/github.log4jexploit.crunchytoast.Start.java
 /blacklist.txt
 /resources/
 /certificates/
@@ -9,3 +9,6 @@
 /crunchytoast.iml
 /CrunchyToast.iml
 /src/main/java/github/log4jexploit/crunchytoast/Main.java
+/mimes.txt
+/src/test/java/github/log4jexploit/crunchytoast/Start.java
+/src/test/java/github/log4jexploit/crunchytoast/LoadTester.java
