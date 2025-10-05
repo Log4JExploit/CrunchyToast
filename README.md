@@ -1,27 +1,32 @@
 # CrunchyToast
 
-A Library that allows you to host a WebServer from within your  
-Java-Application. No annoying installation required. Simply  
-add CrunchyToast as a Library and get started.
+A library that allows you to host an http/websocket server from   
+within your java application. No installation required.   
+Simply add CrunchyToast as a library and get started.  
+
+Prebuilt jars can be found in the <b>Releases</b> section of  
+this GitHub repository.
 
 
 # Features
 
-Version 2.4 includes the following features:
-- Works with TLS 1.3 and LetsEncrypt
+Version 3.0 includes the following features:
+- Support for certificates (SSL/TLS)
 - Launching multiple independent Server instances
 - Declaring Endpoints using Annotations
 - Automatic handling of returned values by such endpoints
 - Making use of chunked or direct data transfer
 - Sending outbound Requests (useful for proxying)
-- Allows for dynamic resource loading (to keep your RAM free)
 - Supports WebSockets and all the benefits they bring
+- Add Pre- and Postprocessors to intercept requests/responses
+- Logging functionality
+- Load balancing of requests
 - and much more!
 
 
 # Getting Started
 
-Spin up a WebServer instance in seconds  
+Spin up a http/websocket server instance in seconds  
 with only a few lines of code:
 
 ```
@@ -51,7 +56,7 @@ When you connect to `localhost:8080`, you'll see the `Hello world!` response.
 
 # Contribution
 
-So you made it all the way down here??  
+Thank you for reading all the way until the end!  
 If you have some spare time, please consider helping!  
 I would really appreciate any contribution you may  
-have to make this more solid and bug-free! ❤️
+have to make this more reliable and bug-free! ❤️
